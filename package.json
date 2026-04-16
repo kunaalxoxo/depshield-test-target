@@ -1,0 +1,20 @@
+{
+  "name": "depshield-test-target",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable Node.js app for DepShield/FixStack demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Tests passed'"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",
+    "axios": "0.21.1",
+    "express": "4.17.1",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "jest": "26.6.3"
+  }
+}
